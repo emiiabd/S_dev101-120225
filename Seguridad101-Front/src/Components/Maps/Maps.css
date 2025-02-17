@@ -1,0 +1,25 @@
+.maps iframe {
+  border-radius: 2rem;
+  box-shadow: 0px 0px 18px 6px var(--BgShadow-color);
+  height: 100%;
+  min-height: 500px;
+}
+
+.maps span {
+  font-size: 1.4rem;
+  margin: 6px;
+  text-align: start;
+}
+
+@media screen and (max-width: 992px) {
+  .maps span {
+    background-color: #ffffff21;
+    border-radius: 2rem;
+    margin: 1.5rem 0 0 0;
+    padding: 1.4rem;
+    box-shadow: 0px 0px 18px 6px var(--BgShadow-color);
+    width: 100%;
+    font-size: 1.2rem;
+  }
+  
+}

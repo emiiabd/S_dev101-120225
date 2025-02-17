@@ -1,0 +1,17 @@
+# FRONT END
+
+Bueno profe mi proyecto se basó en un mini CRM que ya está actualmente en funcionamiento pero fue realizado en PHP con una framework que actualmente ya no se utiliza. 
+Fue bastante difícil ir entendiendo como se realizó el programa en conjunto a la base de datos, que también tuve que modificar algunas cosas para poder adaptarla mejor y que el sistema funcione correctamente. El proyecto trata de la página web de la empresa con un formulario para poder pedir cotizaciones de instalación de los servicios que realiza la misma. También realice la parte de la gestión de clientes (El mini CRM) que a futuro voy a seguir agregando bastantes cosas pero claramente con la poca experiencia y aprendiendo sobre la marcha para poder realizar la entrega del proyecto no me alcanzaron los tiempos, sumado que en la empresa estamos con temporada alta y nos falta gente para trabajar asique estuve bastante corto de tiempo pero creo haber logrado todo lo previsto para la entrega. Cuando ingresas en la (url)/login te podes logear y vas a poder ver el inicio del CRM, donde veras los trabajos pendientes, alertas de baterías  (que cuando un cliente, mediante los services que se le realizan al cliente este indicado que se realizó un cambio de batería, el programa automáticamente te coloca en alerta de batería aquellos clientes que superen los 2 años de colocación) y también está la parte de los services pendiente de pago. En la navbar vas a encontrar a los clientes, donde podes filtrar por el nombre o el apellido así como en lista (me falta hacer la paginación), te encontras con un menú desplegable donde podes ir al logout y en un futuro le voy a agregar la información del usuario, me faltan bastante hacer  las validaciones correctas y además agregar algunas pantallas, espero esta semana terminar con las validaciones y si es que termino tal vez a la hora de corregir lo encontras con todas las validaciones correctas. Sé que a modo código no es el más correcta ya que tuve que rehacer muchas de las cosas hasta terminar como está hoy en día. Actualmente está el problema de la base de datos que no me deja hacer muchas cosas por el límite de 5 conexiones, estoy intentando revertir eso pero todavía no encuentro como solucionarlo. Pero en local está todo funcionando perfectamente, incluso yo lo estuve probando con una copia de la base de datos de la empresa donde tiene más de 16000 services y más de 6000 clientes cargados. Espero que el proyecto le guste y si hay algún feedback para mejorar algunas cosas me encantaría escucharlo, ya que este proyecto va a estar volcado a la web y va a ser algo funcional en el día a día, también sé que le falta mucho para poder volcarlo a la web pero me voy a encargar de que eso suceda y espero que de la mejor manera posible. Desde ya muchas gracias por la cursada, en lo personal pero solo a título personal me hubiera gustado ver algo más de seguridad web, una rama que me interesa bastante y estoy buscando un curso para realizar en ese ámbito, ya sea hacking ético o algo por el estilo. Si conoce o tiene alguna recomendación que sepa también me encantaría escucharlo. Gracias, saludos y espero que tenga un buenas vacaciones!
+
+# Librerias utilizadas 
+
+@fortawesome/free-solid-svg-icons
+@fortawesome/react-fontawesome
+@react-google-maps/api
+bootstrap-icons
+react-bootstrap
+react-google-recaptcha
+react-parallax
+react-router-dom
+react-scroll-parallax
+use-places-autocomplete

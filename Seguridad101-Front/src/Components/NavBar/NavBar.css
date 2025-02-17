@@ -1,0 +1,36 @@
+.button-nav{
+  margin: 0 0.2rem;
+  border-radius: 0.3rem;
+  font-weight: 400;
+  --bs-nav-link-padding-y: 0.2rem;
+}
+
+.navbar-toggler{
+  color: var(--primary-color);
+  background-image: none;
+  background-color: var(--tertiary-color);
+}
+
+.navbar{
+  background-color: rgba(0, 0, 0, 0.678);
+  min-height: 90px;
+}
+.navbarApp{
+  background-color: rgba(0, 0, 0, 0.8);
+  min-height: 90px;
+}
+
+.navbar-toggler:hover{
+  background-color: var(--blueLight-color);
+}
+
+.nav-link {
+  color: var(--primary-color) !important;
+  font-weight: 300 !important;
+  
+}
+
+.button-nav:hover{
+  background-color: var(--blueLight-color);
+  
+}

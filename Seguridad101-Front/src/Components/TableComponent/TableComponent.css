@@ -1,0 +1,31 @@
+.accordion-button:not(.collapsed) {
+  box-shadow: none !important;
+  border: none;
+  border-radius: 0px;
+  background-color: #f8f9fa;
+}
+
+
+.accordion-header p {
+  font-size: 1.1rem;
+  padding: 1.5rem 1rem;
+  margin: 0;
+  text-align: center;
+  border: 1px solid var(--gray-color);
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.input-show {
+  min-width: 50px;
+  max-width: 50px;
+}
+
+.input-search {
+  min-width: 200px;
+}
+
+.tableHeader {
+  padding: 0 1.25rem
+}

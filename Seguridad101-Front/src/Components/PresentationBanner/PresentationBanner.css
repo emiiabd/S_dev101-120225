@@ -1,0 +1,40 @@
+.presentationBanner{
+  box-shadow: 0 0 20px var(--BgShadow-color);
+}
+.secction-one *{
+  color: var(--primary-color);
+}
+
+.button-intro{
+  background-color: #0466C8;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  color: #F8F9FA;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.button-intro:hover{
+  background-color: #5c99d8;
+  color: #F8F9FA;
+}
+
+.presentation-title{
+  letter-spacing: 0.3px;
+}
+
+.presentation-text{
+  font-size: 1.1rem;  
+}
+
+.mh-600{
+  min-height: 600px;
+}
+
+.mh-500{
+  min-height: 500px;
+}
+
+.mw-1200{
+  max-width: 1200px;
+}

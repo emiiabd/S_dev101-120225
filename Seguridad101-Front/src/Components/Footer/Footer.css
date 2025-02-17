@@ -1,0 +1,21 @@
+.footer{
+  background-color: var(--gray-color);
+  color: var(--graySolid-color);
+  box-shadow: 0 0 20px var(--BgShadow-color);
+}
+
+.footer .fs-6{
+  font-size: 0.9rem !important;
+}
+.footer p{
+  margin: 0.3rem;
+}
+
+.footer a{
+  text-decoration: none;
+  color: var(--graySolid-color);
+}
+
+.footer a:hover{
+  color: var(--blue-color);
+}

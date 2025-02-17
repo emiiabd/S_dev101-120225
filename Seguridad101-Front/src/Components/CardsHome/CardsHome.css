@@ -1,0 +1,13 @@
+.card-title{
+  font-weight: 600;
+}
+
+.scroll-animation-cards {
+  position: relative;
+  opacity: 0;
+}
+
+.card-text{
+  color: var(--graySolid-color);
+  letter-spacing: 0;
+}

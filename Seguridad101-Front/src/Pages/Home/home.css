@@ -1,0 +1,18 @@
+.section{
+  background-color: var(--grayDark-color);
+}
+.section-five {
+  color: var(--graySolid-color);
+  background-color: var(--primary-color);
+}
+
+h2{
+  font-size: 2.5rem;
+}
+
+@media screen and (max-width: 992px) {
+  .section-five h2{
+    display: none;
+  }
+  
+}

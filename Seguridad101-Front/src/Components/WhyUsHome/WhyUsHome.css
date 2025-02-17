@@ -1,0 +1,38 @@
+.section-three{
+  color: var(--primary-color) !important;
+  box-shadow: 0 0 20px var(--BgShadow-color);
+}
+
+.section-three > *{
+  color: var(--primary-color);
+}
+
+.list-item {
+  position: relative;
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+.section-three h2{
+  font-size: 3rem;
+  padding: 4rem 0;
+}
+
+.scroll-animation-why-us {
+  position: relative;
+  opacity: 0;
+}
+
+.why-us-title {
+  position: relative;
+  opacity: 0;
+  translate: 0 100%;
+  transition: translate 0.6s ease-out;
+}
+
+@media screen and (max-width: 992px) {
+.why-us-title {
+  translate: 0 -100%;
+}
+}

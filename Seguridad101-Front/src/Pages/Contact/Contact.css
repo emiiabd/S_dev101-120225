@@ -1,0 +1,7 @@
+.contactInfo *{
+  color: var(--graySolid-color);
+}
+
+.contactInfo a:hover{
+  color: var(--blue-color);
+}

@@ -1,0 +1,14 @@
+.brand-image{
+  max-height: 100px;
+  max-width: 250px;
+  width: auto;
+}
+
+.brandsBox{
+  min-height: 30vh;
+}
+
+.carousel-container{
+  background-color: var(--BgShadow-color);
+  box-shadow: 0 0 20px var(--BgShadow-color);
+}
